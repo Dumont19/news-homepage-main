@@ -283,6 +283,7 @@ body {
         position: relative;
         left: 85%;
         margin: 2rem 0 5.5rem 0;
+        cursor: pointer;
     }
 
     .list-menu-mobile li {
