@@ -144,10 +144,17 @@ body {
     margin-bottom: 0;
 }
 
-.new h4 {
+.new a {
+    display: inline-block;
     color: var(--off-white);
+    text-decoration: none;
     font-size: 1.125rem;
     margin-bottom: 1.25rem;
+}
+
+.new a:hover {
+    color: var(--soft-orange);
+    transition: ease-in-out .3s;
 }
 
 .new hr {
@@ -262,6 +269,11 @@ body {
         margin-top: 1.75rem;
     }
 
+    .navbar-mobile button {
+        background: transparent;
+        border: none;
+    }
+
     .navbar-mobile .closed-menu {
         cursor: pointer;
     }
@@ -277,6 +289,11 @@ body {
         height: 100%;
         width: 70vw;
         padding: 0 1.5rem;
+    }
+
+    .menu-mobile button {
+        background: transparent;
+        border: none;
     }
 
     .menu-mobile .opened-menu {
